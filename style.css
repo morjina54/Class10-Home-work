@@ -1,0 +1,108 @@
+/* Common css Start */
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+   }
+   body{
+    font-family: 'Open Sans', sans-serif;
+   }
+   a{
+       text-decoration: none;
+   }
+   ul{
+       list-style-type: none;
+   }
+   .container{
+       width: 1170px;
+       margin: 0 auto;
+   }
+   .row{
+       display: flex;
+       flex-wrap: wrap;
+   }
+/* Common css End */
+/* Nav section Start */
+nav{
+    background-color: #02918c;
+}
+nav > .container > .row{
+    align-items: center;
+}
+nav .logo{
+    width: 25%;
+}
+nav .logo img{
+    display: block;
+}
+nav .menu{
+    width: 75%;
+    text-align: right;
+}
+nav .menu ul li{
+ display: inline-block;
+ margin: 12px 0;
+}
+nav .menu ul li a{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 800;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    transition: all .4s linear;
+    border-radius: 10px;
+}
+nav .menu ul li a:hover{
+    background-color: #cfc91d;
+    
+}
+/* Nav section End */
+/* banner Section Start  */
+#banner{
+background-image: url(./img/banner.jpg);
+background-size: cover;
+background-position: center;
+text-align: center;
+padding: 200px 0;
+
+}
+#banner h6{
+    font-size: 30px;
+    line-height: 25px;
+    color: #ffffff;
+}
+#banner h1{
+    font-size: 68px;
+    line-height: 75px;
+    letter-spacing: 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+#banner p{
+    font-size: 18px;
+    line-height: 33px;
+    color: #ffffff;
+}
+#banner img.banner-shape{
+    display: block;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+#banner a{
+    background: #cfc91d;
+    font-size: 14px;
+    color: #0b100b;
+    padding: 10px 35px;
+    text-transform: uppercase;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+#banner a:hover{
+    background-color: #ffffff;
+}
+/* banner Section End  */
